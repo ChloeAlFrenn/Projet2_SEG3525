@@ -13,6 +13,7 @@ function Navbar() {
         <Link to="/MassagesSoins" className='links'> Massages et Soins </Link>
         <Link to="/Reservation" className='links'> Reservation </Link>
         <Link to="/BienEtre" className='links'> Bien-etre </Link>
+        <Link to="/Avis" className='links'> Avis </Link>
     </div>
 </div>
   )
