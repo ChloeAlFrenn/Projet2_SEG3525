@@ -10,9 +10,9 @@ function Navbar() {
     </div>
     <div className='right_section'>
         <Link to="/" className='links'> Accueil </Link>
-        <Link to="/MassagesSoins" className='links'> MassagesSoins </Link>
+        <Link to="/MassagesSoins" className='links'> Massages et Soins </Link>
         <Link to="/Reservation" className='links'> Reservation </Link>
-        <Link to="/BienEtre" className='links'> BienEtre </Link>
+        <Link to="/BienEtre" className='links'> Bien-etre </Link>
     </div>
 </div>
   )
