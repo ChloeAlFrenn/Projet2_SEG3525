@@ -1,8 +1,15 @@
 import React from "react";
 import "./MassagesSoins.css";
 import { engin, rosa } from "../assets/index";
+import { useNavigate } from 'react-router-dom';
 
 function MassagesSoins() {
+  const navigate = useNavigate();
+
+  const handleQuizClick = () => {
+    navigate('/Quiz');
+  };
+
   return (
     <div className="container">
       <div className="sidebar">
@@ -23,6 +30,11 @@ function MassagesSoins() {
         <label>
           <input type="checkbox" /> Deux personnes
         </label>
+        <div className="quiz-section">
+          <h2>Vous ne savez pas quel service choisir ?</h2>
+          <p>Faites notre quiz pour voir ce qui vous convient le mieux</p>
+          <button onClick={handleQuizClick}>Faire le quiz</button>
+        </div>
       </div>
       <div className="content">
         <div className="service">

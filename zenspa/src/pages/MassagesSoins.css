@@ -63,3 +63,38 @@
     font-size: 1.2rem;
   }
   
+  .quiz-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f4f9f9;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .quiz-section h2 {
+    font-size: 1.5em;
+    color: #6B9080;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-section p {
+    font-size: 1.2rem;
+    color: #6B9080;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-section button {
+    background-color: #6B9080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Optima', 'Noto Serif', 'Arial', sans-serif;
+  }
+  
+  .quiz-section button:hover {
+    background-color: #557a69;
+  }
+  
