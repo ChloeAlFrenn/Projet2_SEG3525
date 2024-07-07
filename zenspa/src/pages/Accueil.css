@@ -25,16 +25,19 @@
   }
   
   .spa-description {
-    width: 27%;
+    margin: auto;
+    text-align: center;
+    width: 30%;
     font-size: 1.4em;
-    margin-left: 10%;
-    color: #333;
+    color: #6B9080;
     line-height: 1.6;
+    font-weight: bold;
   }
   
   .contact-section {
     padding: 15px;
     background-color: #EAF4F4;
+    color: #6B9080;
   }
   
   .contact-section h2 {

@@ -1,6 +1,6 @@
 import React from "react";
 import { alex } from '../assets/index';
-import './Accueil.css'; // Import the CSS file
+import './Accueil.css'; 
 
 function Accueil() {
   return (
@@ -11,7 +11,7 @@ function Accueil() {
       <div className="image-container">
         <img className='accueilimg' src={alex} alt="image d'accueil" />
         <p className="spa-description">
-          Chez ZenSpa, nous croyons fermement en l'importance de prendre soin de soi tant physiquement que mentalement. Nous offrons une gamme complète de massages relaxants et thérapeutiques, ainsi que des soins spécialisés pour revitaliser votre corps et apaiser votre esprit. En plus de nos traitements de soins personnalisés, ZenSpa vous invite à découvrir notre collection exclusive de vidéos inspirantes et de quiz interactifs sur le bien-être. Notre objectif est de vous guider vers un chemin de détente et d'équilibre intérieur, en vous fournissant les outils nécessaires pour maintenir une santé optimale et un bien-être durable. Rejoignez-nous chez ZenSpa pour une expérience unique où chaque visite est une occasion de rétablir l'harmonie dans votre vie quotidienne.
+          Chez ZenSpa, nous croyons fermement en l'importance de prendre soin de soi tant physiquement que mentalement. Nous offrons une gamme complète de massages relaxants et thérapeutiques, ainsi que des soins spécialisés pour revitaliser votre corps et apaiser votre esprit. 
         </p>
       </div>
       <div className="contact-section">
